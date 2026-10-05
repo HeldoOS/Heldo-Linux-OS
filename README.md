@@ -1,4 +1,4 @@
-Heldo OS
+ 																						**			Heldo OS**
 
 <p align="center">
   <img src="assets/Heldo OS_logo.png" alt="Heldo OS Logo" width="180">
