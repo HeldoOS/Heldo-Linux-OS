@@ -307,7 +307,7 @@ A dedicated reporting process will be published before the first public release.
 
 ## License
 
-No license has been selected yet. Until one is added, **all rights are reserved by the author**.
+The OS is currently under development and will be available online soon.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
