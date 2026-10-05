@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Heldo OS" width="100%">
+  <img src="assets/Heldo_OS_logo.png" alt="Heldo OS" width="320">
 </p>
+
+<h3 align="center">A Linux desktop where every sensitive change is visible, controllable, and reversible.</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-in%20development-ff1a2e?style=for-the-badge&labelColor=050304" alt="Status">
@@ -304,7 +306,3 @@ A dedicated reporting process will be published before the first public release.
 ## License
 
 No license has been selected yet. Until one is added, **all rights are reserved by the author**.
-
-<p align="center">
-  <img src="assets/Heldo_OS_logo.png" alt="Heldo OS" width="200">
-</p>
