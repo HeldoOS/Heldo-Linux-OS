@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Heldo OS: a Linux desktop where every sensitive change is visible, controllable, and reversible" width="100%">
+  <img src="assets/banner.svg" alt="Heldo OS: a Linux desktop where every sensitive change is visible, controllable, and reversible" width="100%">
 </p>
 
 <p align="center">
