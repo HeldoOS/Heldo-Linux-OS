@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Heldo OS_logo.png" alt="Heldo OS" width="100%">
+  <img src="assets/Heldo OS_logo.png" alt="Heldo OS" width="60%">
 </p>
 
 <h3 align="center">A Linux desktop where every sensitive change is visible, controllable, and reversible.</h3>
