@@ -311,6 +311,4 @@ No license has been selected yet. Until one is added, **all rights are reserved 
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-<p align="center">
-  <img src="assets/Heldo OS_logo.png" alt="Heldo OS" width="200">
-</p>
+<p align="center"> <b>Review. Protect. Recover.</b><br> <sub>Heldo OS: a security-first Linux desktop, in active development.</sub> </p> <p align="center"> <a href="#overview">Back to top ↑</a> </p>
