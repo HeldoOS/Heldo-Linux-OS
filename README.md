@@ -134,19 +134,9 @@ Each project gets its own environment, so dependencies and workloads never touch
 
 ## Architecture
 
-```text
-┌──────────────────────────────────────────────────────────┐
-│                      Heldo Desktop                       │
-├────────────────┬──────────────┬─────────────┬────────────┤
-│   Protection   │   Recovery   │  Isolation  │ Assistance │
-│     Change     │ Time Machine │   Project   │  AI Pilot  │
-│    Firewall    │Recovery Env. │   Bubbles   │ (planned)  │
-├────────────────┴──────────────┴─────────────┴────────────┤
-│                      Heldo Software                      │
-├──────────────────────────────────────────────────────────┤
-│   Linux · AppArmor · Firewall · Auditing · Containers    │
-└──────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="assets/architecture.svg" alt="Heldo OS architecture: desktop, four component pillars, Heldo Software, and the Linux foundation" width="900">
+</p>
 
 | Pillar | Purpose |
 |:--|:--|
