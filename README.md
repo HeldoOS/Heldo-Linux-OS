@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/heldo os_logo.png" alt="Heldo OS Logo" width="160">
+<img src="assets/Heldo OS_logo.png" alt="Heldo OS Logo" width="160">
 
 # Heldo OS
 
