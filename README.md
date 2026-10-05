@@ -1,254 +1,303 @@
- 																						**			Heldo OS**
+<div align="center">
 
-<p align="center">
-  <img src="assets/Heldo OS_logo.png" alt="Heldo OS Logo" width="180">
-</p>
+<img src="assets/heldo-os-logo.png" alt="Heldo OS Logo" width="160">
 
-<h3 align="center">
-  A Linux Desktop Built with Security, Control, Recovery and Developer Experience in Mind.
-</h3>
+# Heldo OS
 
-<p align="center">
-  <strong>Control your system. Understand what is happening. Recover when something goes wrong.</strong>
-</p>
+### A Linux desktop built for security, control, recovery, and developer experience.
 
-<p align="center">
-  <a href="#features">Features</a> •
-  <a href="#screenshots">Screenshots</a> •
-  <a href="#architecture">Architecture</a> •
-  <a href="#development">Development</a> •
-  <a href="#roadmap">Roadmap</a>
-</p>
+**Control your system. Understand what is happening. Recover when something goes wrong.**
+
+<br>
+
+![Status](https://img.shields.io/badge/status-early%20development-orange?style=for-the-badge)
+![Platform](https://img.shields.io/badge/platform-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Security](https://img.shields.io/badge/security-first-2ea44f?style=for-the-badge&logo=apparmor&logoColor=white)
+![License](https://img.shields.io/badge/license-TBD-lightgrey?style=for-the-badge)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue?style=for-the-badge)
+
+<br>
+
+[**Features**](#-features) &nbsp;·&nbsp;
+[**Screenshots**](#-screenshots) &nbsp;·&nbsp;
+[**Architecture**](#-architecture) &nbsp;·&nbsp;
+[**Roadmap**](#-roadmap) &nbsp;·&nbsp;
+[**Contributing**](#-contributing)
+
+</div>
 
 ---
 
-## 🚀 About Heldo OS
+## 📖 Table of Contents
 
-**Heldo OS** is a custom Linux operating system designed to bring together:
+- [About](#-about)
+- [Vision](#-vision)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Architecture](#-architecture)
+- [Who It's For](#-who-its-for)
+- [Getting Started](#-getting-started)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-- 🔐 Security
-- 🛡️ System control
-- ⏪ Recovery
-- 🤖 AI-assisted troubleshooting
-- 📦 Isolated development environments
-- 💻 Developer productivity
-- 🛍️ Simplified software management
+---
 
-I started Heldo OS as an idea and have been building it through continuous **development, testing, troubleshooting, and refinement**.
+## 🚀 About
 
-The goal is not simply to customize the appearance of Linux, but to explore a different approach to the desktop operating-system experience.
+**Heldo OS** is a custom Linux operating system that brings together security, system control, recovery, AI-assisted troubleshooting, isolated development environments, and simplified software management in one desktop.
 
-> **Control your system. Understand what is happening. Recover when something goes wrong.**
+It started as an idea and has been shaped through continuous **development, testing, troubleshooting, and refinement**. The goal is not just to restyle Linux, but to explore a different approach to the desktop operating-system experience.
+
+> [!NOTE]
+> Heldo OS is under active development. Some features described here are implemented, others are design goals. See the [Roadmap](#-roadmap) for status.
 
 ---
 
 ## 🎯 Vision
 
-Modern operating systems are powerful, but system changes can sometimes be difficult to understand, troubleshoot, or reverse.
+Modern operating systems are powerful, but system changes can be hard to understand, troubleshoot, or reverse. Heldo OS makes these processes **visible and manageable** by placing protection, recovery, development environments, and intelligent assistance side by side.
 
-Heldo OS aims to make these processes more visible and manageable by bringing system protection, recovery, development environments, and intelligent assistance closer together.
+<div align="center">
 
-The long-term vision is to create a Linux desktop that provides:
+**🔐 Security** &nbsp;→&nbsp; **🎛️ Control** &nbsp;→&nbsp; **🤖 Intelligence** &nbsp;→&nbsp; **📦 Isolation** &nbsp;→&nbsp; **⏪ Recovery**
 
-**Security → Control → Intelligence → Isolation → Recovery**
+</div>
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-## 🛡️ Heldo Change Firewall
+<table>
+<tr>
+<td width="50%" valign="top">
 
-A system-level security concept focused on controlling sensitive changes made by:
+### 🛡️ Heldo Change Firewall
+Control sensitive system modifications made by:
 
-- Applications
-- Scripts
+- Applications and scripts
 - Automation
 - Administrative operations
 - AI-assisted operations
 
-The goal is to provide better visibility and control over important system modifications.
+Better visibility and control over what changes your system.
 
----
+</td>
+<td width="50%" valign="top">
 
-## 🤖 Heldo AI Pilot
+### 🤖 Heldo AI Pilot
+AI-assisted help to understand and troubleshoot your OS:
 
-An AI-assisted system designed to help users understand and troubleshoot their operating system.
-
-Potential capabilities include:
-
-- System issue analysis
-- Error investigation
+- System issue and error analysis
 - Configuration analysis
-- Troubleshooting assistance
 - Recommended corrective actions
 - Controlled system operations
 
-The objective is to make complex system troubleshooting easier without removing user control.
+Easier troubleshooting, **without removing user control**.
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-## ⏪ Heldo Time Machine
-
-A recovery-oriented system designed around the idea of restoring the operating system after unwanted or problematic changes.
-
-Possible capabilities include:
+### ⏪ Heldo Time Machine
+Restore the system after unwanted changes:
 
 - Recovery points
 - System rollback
 - Configuration restoration
-- Change recovery
 - Pre-update recovery
 
----
+</td>
+<td width="50%" valign="top">
 
-## 🛠️ Heldo Recovery
-
-A dedicated recovery environment for maintaining the operating system.
-
-Designed to assist with:
+### 🛠️ Heldo Recovery
+A dedicated environment for maintaining the OS:
 
 - System diagnostics
 - Boot recovery
 - Configuration repair
 - System restoration
-- Recovery operations
-- Troubleshooting
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-## 📦 Heldo Project Bubbles
+### 📦 Heldo Project Bubbles
+Isolated environments that keep the host clean:
 
-Isolated environments designed for development workloads.
+| | |
+|---|---|
+| 🐍 Python | 🌐 Web |
+| ☕ Java | ⚙️ C / C++ |
+| 🐹 Go | 🤖 AI / ML |
+| ☁️ Cloud | 🔧 DevOps |
+| ☸️ Kubernetes | 🐳 Containers |
 
-Target environments include:
+</td>
+<td width="50%" valign="top">
 
-- 🐍 Python
-- 🌐 Web Development
-- ☕ Java
-- ⚙️ C / C++
-- 🐹 Go
-- 🤖 AI / ML
-- ☁️ Cloud Development
-- 🔧 DevOps
-- ☸️ Kubernetes
-- 🐳 Containers
-
-The objective is to allow developers to work in isolated environments while keeping the host system cleaner and more controlled.
-
----
-
-## 🔐 Security Foundation
-
-Heldo OS is being developed with a security-first mindset.
-
-The system incorporates or is designed around technologies and controls such as:
-
-- AppArmor
-- Firewall management
-- System auditing
-- Security updates
-- Privilege management
-- Application isolation
-- Sandboxed workloads
-- Secure system configuration
-
-Security is treated as a fundamental part of the operating system rather than an optional add-on.
-
----
-
-## 💻 Developer Experience
-
-Heldo OS is designed with developers and infrastructure professionals in mind.
-
-Target users include:
-
-- Software Developers
-- Cloud Engineers
-- DevOps Engineers
-- SRE Engineers
-- System Administrators
-- Security Engineers
-- AI/ML Engineers
-- Linux Enthusiasts
-
-The objective is to provide a productive desktop while maintaining strong system control.
-
----
-
-## 🛍️ Heldo Software
-
-Heldo OS includes a unified approach to software management.
-
-The goal is to make it easier for users to:
+### 🛍️ Heldo Software
+One consistent way to manage software:
 
 - Discover applications
-- Install applications
-- Update applications
+- Install and update applications
 - Manage installed software
 - Access developer tools
 
-The long-term objective is to provide a consistent software-management experience across the Heldo ecosystem.
+</td>
+</tr>
+</table>
+
+### 🔐 Security Foundation
+
+Security is treated as a core part of the OS, not an add-on. Heldo OS is built around:
+
+| Area | Technologies and controls |
+|:---|:---|
+| **Access control** | AppArmor, privilege management |
+| **Network** | Firewall management |
+| **Visibility** | System auditing |
+| **Isolation** | Application isolation, sandboxed workloads |
+| **Hygiene** | Security updates, secure system configuration |
 
 ---
 
-# 🖥️ Screenshots
+## 🖥️ Screenshots
 
-## Desktop
+<div align="center">
 
-<p align="center">
-  <img src="assets/screenshots/desktop.png" alt="Heldo OS Desktop" width="900">
-</p>
+### Desktop
+<img src="assets/screenshots/desktop.png" alt="Heldo OS Desktop" width="900">
 
----
+<br><br>
 
-## Heldo OS Application Center
+### Application Center
+<img src="assets/screenshots/software-center.png" alt="Heldo Software Center" width="900">
 
-<p align="center">
-  <img src="assets/screenshots/software-center.png" alt="Heldo Software Center" width="900">
-</p>
+<br><br>
 
----
+<table>
+<tr>
+<td align="center" width="50%">
+<b>Recovery</b><br><br>
+<img src="assets/screenshots/recovery.png" alt="Heldo Recovery">
+</td>
+<td align="center" width="50%">
+<b>Security</b><br><br>
+<img src="assets/screenshots/security.png" alt="Heldo Security">
+</td>
+</tr>
+</table>
 
-## Heldo Recovery
-
-<p align="center">
-  <img src="assets/screenshots/recovery.png" alt="Heldo Recovery" width="900">
-</p>
-
----
-
-## Heldo Security
-
-<p align="center">
-  <img src="assets/screenshots/security.png" alt="Heldo Security" width="900">
-</p>
+</div>
 
 ---
 
-# 🏗️ Architecture
+## 🏗️ Architecture
 
-Heldo OS is built as a Linux-based operating system with a customized desktop experience and an ecosystem of Heldo-specific tools.
+Heldo OS is a Linux-based system with a customized desktop and an ecosystem of Heldo-specific tools, organized into three pillars on top of the Linux core.
 
-```text
-                    ┌──────────────────────┐
-                    │      Heldo OS        │
-                    └──────────┬───────────┘
-                               │
-              ┌────────────────┼────────────────┐
-              │                │                │
-              ▼                ▼                ▼
-       ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
-       │   Security  │  │  Recovery   │  │ Development │
-       └──────┬──────┘  └──────┬──────┘  └──────┬──────┘
-              │                │                │
-              ▼                ▼                ▼
-       ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
-       │ Change      │  │ Time        │  │ Project     │
-       │ Firewall    │  │ Machine     │  │ Bubbles     │
-       └─────────────┘  └─────────────┘  └─────────────┘
-              │                │                │
-              └────────────────┼────────────────┘
-                               ▼
-                      ┌─────────────────┐
-                      │   Linux Core    │
-                      └─────────────────┘
+```mermaid
+flowchart TD
+    OS["<b>Heldo OS</b>"]
+
+    OS --> SEC["🔐 Security"]
+    OS --> REC["⏪ Recovery"]
+    OS --> DEV["💻 Development"]
+
+    SEC --> CF["Change Firewall"]
+    REC --> TM["Time Machine"]
+    DEV --> PB["Project Bubbles"]
+
+    CF --> CORE
+    TM --> CORE
+    PB --> CORE
+
+    CORE["🐧 <b>Linux Core</b>"]
+
+    AI["🤖 AI Pilot"] -.assists.-> SEC
+    AI -.assists.-> REC
+    AI -.assists.-> DEV
+
+    classDef pillar fill:#1f6feb22,stroke:#1f6feb,stroke-width:1.5px;
+    classDef tool fill:#2ea04322,stroke:#2ea043,stroke-width:1.5px;
+    classDef core fill:#f0883e22,stroke:#f0883e,stroke-width:2px;
+    class SEC,REC,DEV pillar;
+    class CF,TM,PB,AI tool;
+    class CORE core;
+```
+
+---
+
+## 👥 Who It's For
+
+| | | | |
+|:---:|:---:|:---:|:---:|
+| 👨‍💻 **Software Developers** | ☁️ **Cloud Engineers** | 🔧 **DevOps Engineers** | 📟 **SRE Engineers** |
+| 🖧 **System Administrators** | 🔒 **Security Engineers** | 🤖 **AI / ML Engineers** | 🐧 **Linux Enthusiasts** |
+
+A productive desktop that keeps strong control over the system underneath.
+
+---
+
+## 🚦 Getting Started
+
+> [!IMPORTANT]
+> Installation images and instructions will be published when the first public release is ready.
+
+Planned flow:
+
+```bash
+# 1. Download the ISO from the Releases page
+# 2. Write it to a USB drive
+# 3. Boot, try it live, or install
+```
+
+Follow this repository (**Watch → Releases**) to be notified.
+
+---
+
+## 🗺️ Roadmap
+
+> Status reflects the current plan and may change.
+
+- [x] Core concept and system design
+- [x] Custom desktop experience
+- [ ] Heldo Change Firewall: policy engine and prompts
+- [ ] Heldo Time Machine: recovery points and rollback
+- [ ] Heldo Recovery: boot and configuration repair environment
+- [ ] Heldo Project Bubbles: first set of isolated environments
+- [ ] Heldo Software: unified install and update experience
+- [ ] Heldo AI Pilot: assisted diagnostics with user approval
+- [ ] First public ISO release
+
+---
+
+## 🤝 Contributing
+
+Ideas, bug reports, and feedback are welcome.
+
+1. **Fork** the repository
+2. Create a branch: `git checkout -b feature/your-idea`
+3. Commit your changes: `git commit -m "Add your idea"`
+4. Push and open a **Pull Request**
+
+You can also [open an issue](../../issues) to discuss a feature or report a problem.
+
+---
+
+## 📄 License
+
+License to be announced. Until a license is added, all rights are reserved by the author.
+
+---
+
+<div align="center">
+
+**Heldo OS**: *Control your system. Understand what is happening. Recover when something goes wrong.*
+
+<sub>Built with persistence, testing, and a lot of troubleshooting.</sub>
+
+</div>
