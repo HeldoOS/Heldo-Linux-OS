@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/heldo-os-logo.png" alt="Heldo OS Logo" width="160">
+<img src="assets/heldo os_logo.png" alt="Heldo OS Logo" width="160">
 
 # Heldo OS
 
@@ -169,12 +169,12 @@ Security is treated as a core part of the OS, not an add-on. Heldo OS is built a
 <div align="center">
 
 ### Desktop
-<img src="assets/screenshots/desktop.png" alt="Heldo OS Desktop" width="900">
+<img src="assets/desktop.png" alt="Heldo OS Desktop" width="900">
 
 <br><br>
 
 ### Application Center
-<img src="assets/screenshots/software-center.png" alt="Heldo Software Center" width="900">
+<img src="assets/tools.png" alt="Heldo Software Center" width="900">
 
 <br><br>
 
