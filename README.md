@@ -1,7 +1,7 @@
 Heldo OS
 
 <p align="center">
-  <img src="assets/Heldo_OS_logo.png" alt="Heldo OS Logo" width="180">
+  <img src="assets/Heldo OS_logo.png" alt="Heldo OS Logo" width="180">
 </p>
 
 <h3 align="center">
