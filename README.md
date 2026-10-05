@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-in%20development-dc2626?style=for-the-badge&labelColor=0b0709" alt="Status">
-  <img src="https://img.shields.io/badge/platform-linux-dc2626?style=for-the-badge&logo=linux&logoColor=white&labelColor=0b0709" alt="Platform">
+  <img src="https://img.shields.io/badge/status-in%20development-ff1a2e?style=for-the-badge&labelColor=0b0709" alt="Status">
+  <img src="https://img.shields.io/badge/platform-linux-ff1a2e?style=for-the-badge&logo=linux&logoColor=white&labelColor=0b0709" alt="Platform">
   <img src="https://img.shields.io/badge/security-first-f97316?style=for-the-badge&logo=apparmor&logoColor=white&labelColor=0b0709" alt="Security first">
   <img src="https://img.shields.io/badge/license-TBD-6e7781?style=for-the-badge&labelColor=0b0709" alt="License">
 </p>
@@ -114,7 +114,7 @@ flowchart LR
     I --> K
 
     classDef ok fill:#9a3412,stroke:#f97316,color:#fff
-    classDef step fill:#7f1d1d,stroke:#dc2626,color:#fff
+    classDef step fill:#7f1d1d,stroke:#ff1a2e,color:#fff
     class G,K,D ok
     class C,E,H,I,J step
 ```
@@ -174,11 +174,11 @@ flowchart LR
 |:--|:--|
 | Core system design | ![Complete](https://img.shields.io/badge/-Complete-16a34a?style=flat-square) |
 | Custom desktop | ![Complete](https://img.shields.io/badge/-Complete-16a34a?style=flat-square) |
-| Change Firewall | ![In Development](https://img.shields.io/badge/-In%20Development-dc2626?style=flat-square) |
-| Time Machine | ![In Development](https://img.shields.io/badge/-In%20Development-dc2626?style=flat-square) |
-| Recovery Environment | ![In Development](https://img.shields.io/badge/-In%20Development-dc2626?style=flat-square) |
-| Project Bubbles | ![In Development](https://img.shields.io/badge/-In%20Development-dc2626?style=flat-square) |
-| Heldo Software | ![In Development](https://img.shields.io/badge/-In%20Development-dc2626?style=flat-square) |
+| Change Firewall | ![In Development](https://img.shields.io/badge/-In%20Development-ff1a2e?style=flat-square) |
+| Time Machine | ![In Development](https://img.shields.io/badge/-In%20Development-ff1a2e?style=flat-square) |
+| Recovery Environment | ![In Development](https://img.shields.io/badge/-In%20Development-ff1a2e?style=flat-square) |
+| Project Bubbles | ![In Development](https://img.shields.io/badge/-In%20Development-ff1a2e?style=flat-square) |
+| Heldo Software | ![In Development](https://img.shields.io/badge/-In%20Development-ff1a2e?style=flat-square) |
 | AI Pilot | ![Planned](https://img.shields.io/badge/-Planned-6e7781?style=flat-square) |
 
 > [!WARNING]
