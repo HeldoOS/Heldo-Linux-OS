@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="assets/Heldo_OS_logo.png" alt="Heldo OS" width="320">
+  <img src="assets/banner.svg" alt="Heldo OS: a Linux desktop where every sensitive change is visible, controllable, and reversible" width="100%">
 </p>
-
-<h3 align="center">A Linux desktop where every sensitive change is visible, controllable, and reversible.</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-in%20development-ff1a2e?style=for-the-badge&labelColor=050304" alt="Status">
@@ -22,6 +20,8 @@
 
 > [!WARNING]
 > **Heldo OS is in active development and has no public release yet.** Don't rely on unreleased components for production systems or critical workloads.
+
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## Overview
 
@@ -94,7 +94,13 @@ flowchart LR
     class D,G,K end_
 ```
 
+<img src="assets/divider.svg" width="100%" alt="">
+
 ## Components
+
+<p align="center">
+  <img src="assets/features.svg" alt="Heldo OS core capabilities" width="900">
+</p>
 
 | Component | What it does | Status |
 |:--|:--|:--|
@@ -123,6 +129,8 @@ Each project gets its own environment, so dependencies and workloads never touch
 | Auditing | System activity and security auditing |
 | Isolation | Application isolation, sandboxed workloads |
 | Maintenance | Security updates, secure configuration |
+
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## Architecture
 
@@ -173,6 +181,8 @@ Each project gets its own environment, so dependencies and workloads never touch
 | **Security engineer** | A workstation with security built in |
 | **AI / ML engineer** | Isolated environments for AI work |
 | **Linux power user** | Visibility into every system change |
+
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## Roadmap
 
@@ -240,6 +250,8 @@ There is no installation image yet. ISO images and instructions will be publishe
 
 **To get notified:** GitHub → Watch → Custom → Releases
 
+<img src="assets/divider.svg" width="100%" alt="">
+
 ## FAQ
 
 <details>
@@ -306,3 +318,9 @@ A dedicated reporting process will be published before the first public release.
 ## License
 
 No license has been selected yet. Until one is added, **all rights are reserved by the author**.
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+<p align="center">
+  <img src="assets/Heldo_OS_logo.png" alt="Heldo OS" width="200">
+</p>
